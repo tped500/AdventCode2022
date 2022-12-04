@@ -45,7 +45,6 @@ with open('input.txt') as file:
 
 sum_items = 0
 
-step = 3
 for i in range(0, len(lines), 3):
     list_of_elves = lines[i:i+3]
     first_elf, second_elf, third_elf = list_of_elves[0], list_of_elves[1], list_of_elves[2]
